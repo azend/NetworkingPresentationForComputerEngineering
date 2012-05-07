@@ -1,6 +1,12 @@
 [center]
-[resc/bg.img]
+[resc/bg.jpg]
+[fill]
+
+--- [text-align=center]
+
+What is the TCP/IP protocol family?
+How does it compare to the OSI model?
 
 ---
 
-What is the TCP/IP protocol family? How does it compare to the OSI model?
+Next slide
