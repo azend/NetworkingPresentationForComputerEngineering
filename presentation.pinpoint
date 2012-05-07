@@ -17,3 +17,20 @@ How does it compare to the OSI model?
 <b>Demo</b>
 A game of Pong played with Android phones as game controllers
 
+---
+
+<b>What is TCP/IP?</b>
+• TCP/IP is a family of different protocols which work together to let your applications talk to one another
+
+--- [text-align=center]
+
+===================================================
+|  #  |                  Layers                   |
+===================================================
+| 5-7 | Application layer (HTTP, FTP, SMTP, ...)  |
+|  4  | TCP (connections) |  UDP (connectionless) |
+|  3  |            Internet (IP, ICMP)            |
+|  2  |   Link layer (ARP, PPP, Ethernet, ...)    |
+===================================================
+
+--- [resc/DissectingTCPIP.mpg] [fit]
