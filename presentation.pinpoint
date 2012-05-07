@@ -6,31 +6,42 @@
 
 --- [text-align=center]
 
-What is the TCP/IP protocol family?
+<big>What is the TCP/IP protocol family?</big>
+<big>How does it compare to the OSI Model?</big>
 
---- [text-align=center]
-
-How does it compare to the OSI model?
-
---- [command=./startgame.sh]
-
-<b>Demo</b>
-A game of Pong played with Android phones as game controllers
+By: Verdi R-D and Adam Silk
 
 ---
 
-<b>What is TCP/IP?</b>
-• TCP/IP is a family of different protocols which work together to let your applications talk to one another
+<big>What is TCP/IP?</big>
 
---- [text-align=center]
+•	TCP/IP is a family of different protocols which work together to let
+	your computer talk with others
+•	TCP/IP got it's name because TCP (Transmission Control Protocol) and
+	IP (Internet Protocol) were the first two protocols defined by the
+	ISO under this heading
+•	TCP/IP is also sometimes known as the DoD model as it was originally
+ 	designed as a simplified version of the OSI model
 
-===================================================
-|  #  |                  Layers                   |
-===================================================
-| 5-7 | Application layer (HTTP, FTP, SMTP, ...)  |
-|  4  | TCP (connections) |  UDP (connectionless) |
-|  3  |            Internet (IP, ICMP)            |
-|  2  |   Link layer (ARP, PPP, Ethernet, ...)    |
-===================================================
+--- [resc/tcpip-family.jpg] [fit]
+
+--- [resc/ip-stack-connections.jpg] [fit]
+
+---
+
+<big> TCP/IP vs OSI </big>
+
+•	OSI model is older; OSI was created before the advent of the 
+	Internet and TCP/IP was created after
+•	OSI has more layers and is stricter about them
+	◦	OSI has 7 full layers
+	◦ 	TCP/IP is concentrated down to 4
 
 --- [resc/DissectingTCPIP.mpg] [fit]
+
+--- [command=./startgame.sh] [text-align=center]
+
+<big>Demo</big>
+A game of Pong played with
+Android phones used as
+game controllers
